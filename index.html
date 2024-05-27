@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container grid-flow" id="container">
+        <picture class="icon-wrapper">
+          <img class="icon" src="images/icon-star.svg" alt="" />
+        </picture>
+        <article class="grid-flow" data-item-spacing="small">
+          <h1 class="heading">How did we do?</h1>
+          <p class="paragraph">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </article>
+            <ul class="ratings-container" id="ratings-container">
+              <li class="rating">1</li>
+              <li class="rating">2</li>
+              <li class="rating">3</li>
+              <li class="rating">4</li>
+              <li class="rating">5</li>
+            </ul>
+            <button class="btn" id="btn">Submit</button>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
